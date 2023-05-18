@@ -219,25 +219,25 @@ void main()
 		}
 	}
 
-while(i==4)
-{
+		while(i==4)
+		{
 
-if ((strcmp(pass, pass2)) == 0)
-{
-	cmd(0xC0);
-	display("Correct");
-	IN1 = 1;
-	IN2 = 0;
-	delay(100);	
-}
-else
-{
-	cmd(0xC0);
-	display("Incorrect");
-	IN1 = 0;
-	IN2 = 0;
-	delay(100);
-}
-}
-}
+		if ((strcmp(pass, pass2)) == 0)
+		{
+			cmd(0xC0);
+			display("Correct");
+			IN1 = 1;
+			IN2 = 0;
+			delay(100);	
+		}
+		else
+		{
+			cmd(0xC0);
+			display("Incorrect");
+			IN1 = 0;
+			IN2 = 0;
+			delay(100);
+		}
+		}
+	}
 	}
